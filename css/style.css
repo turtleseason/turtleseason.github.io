@@ -1,0 +1,78 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background: linear-gradient(#566455,#889b7e);
+}
+
+header i {
+    font-size: 1.75rem;
+}
+
+h1, h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+}
+
+a {
+    color: #4e7934;
+}
+
+a:hover {
+    color: #3a6025;
+}
+
+a.text-light:focus, a.text-light:hover {
+    color: #cbdad2 !important;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.badge-language {
+    color: #fff;
+    background: #54645a;
+}
+
+.badge-framework {
+    color: #fff;
+    background: #567d3f;
+}
+
+.badge-tool {
+    color: #fff;
+    background: #6c757d;
+}
+
+.btn-dark {
+    background-color: #54645a;
+    border-color: #54645a;
+    font-weight:300;
+}
+
+.btn-dark:hover, .btn-dark:focus {
+    background-color: #394038;
+    border-color: #394038;
+}
+
+.card-body {
+    background: #f6f9f6;
+    border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-footer {
+    background: #c6d2c5;
+}
+
+.gallery img {
+    box-shadow: 1px 1px 3px 2px rgb(0,0,0,.125);
+    border-radius: 5px;
+    cursor: zoom-in;
+}
+
+.title-link {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
