@@ -14,6 +14,17 @@
     </head>
     
     <body>
+        <div class="overlay" hidden>
+            <div class="overlay-bg"></div>
+            <div class="lightbox">
+                <div class="spinner-border text-light"></div>
+                <figure>
+                    <img class="display-image" src="" alt=""/>
+                    <figcaption><span class="caption-text"></span><a class="caption-link ml-2" href="#" target="_blank">(full image)</a></figcaption>
+                </figure>
+            </div>
+        </div>
+
         <header class="container-fluid p-0">
             <div class="container pt-5 pb-3">            
                 <div class="row align-items-center">
@@ -39,8 +50,8 @@
                 <div class="col-12 col-xl-9 p-0">
                     <div class="row mx-n2">
                         <div class="col p-2">
-                            <a href="../img/jigsaw-screenshot.png">
-                                <img class="w-100" src="../img/jigsaw-screenshot.png" alt="Screenshot">
+                            <a href="https://turtleseason.github.io/img/jigsaw-screenshot.png">
+                                <img class="w-100" src="../img/jigsaw-screenshot.png" alt="Screenshot of the jigsaw puzzle webpage.">
                             </a>
                         </div>
                     </div>
@@ -48,18 +59,18 @@
                 <div class="col-12 col-xl-9 p-0 justify-content-between">
                     <div class="row mx-n2">
                         <div class="col p-2">
-                            <a href="../img/jigsaw-mobile.png">
-                                <img class="myimg thumbnail w-100" src="../img/jigsaw-mobile-thumb.png" alt="Screenshot at mobile resolution">
+                            <a href="https://turtleseason.github.io/img/jigsaw-mobile.png">
+                                <img class="thumbnail w-100" src="../img/jigsaw-mobile-thumb.png" alt="Screenshot at mobile resolution.">
                             </a>
                         </div>
                         <div class="col p-2">
                             <a href="../img/jigsaw-tablet.png">
-                                <img class="myimg thumbnail w-100" src="../img/jigsaw-tablet-thumb.png" alt="Screenshot at tablet resolution">
+                                <img class="thumbnail w-100" src="../img/jigsaw-tablet-thumb.png" alt="Screenshot at tablet resolution.">
                             </a>
                         </div>
                         <div class="col p-2">
                             <a href="../img/jigsaw-settings.png">
-                                <img class="myimg thumbnail w-100" src="../img/jigsaw-settings-thumb.png" alt="Screenshot of the settings dialog">
+                                <img class="thumbnail w-100" src="../img/jigsaw-settings-thumb.png" alt="Screenshot of the settings dialog.">
                             </a>
                         </div>
                     </div>
@@ -86,5 +97,7 @@
                 <p class="mt-4"><a class="btn btn-lg btn-dark" href="../index.html">Back</a></p>
             </div>
         </main>
+
+        <script src="../js/lightbox.js"></script>
     </body>
 </html>

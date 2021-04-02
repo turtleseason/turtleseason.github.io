@@ -14,6 +14,17 @@
     </head>
     
     <body>
+        <div class="overlay" hidden>
+            <div class="overlay-bg"></div>
+            <div class="lightbox">
+                <div class="spinner-border text-light"></div>
+                <figure>
+                    <img class="display-image" src="" alt=""/>
+                    <figcaption><span class="caption-text"></span><a class="caption-link ml-2" href="#" target="_blank">(full image)</a></figcaption>
+                </figure>
+            </div>
+        </div>
+
         <header class="container-fluid p-0">
             <div class="container pt-5 pb-3">            
                 <div class="row align-items-center">
@@ -36,7 +47,7 @@
                     <div class="row mx-n2">
                         <div class="col p-2">
                             <a href="../img/photopuzzle-puzzle.png">
-                                <img class="w-100" src="../img/photopuzzle-puzzle.png" alt="Screenshot of the puzzle grid">
+                                <img class="w-100" src="../img/photopuzzle-puzzle.png" alt="Screenshot of the puzzle grid.">
                             </a>
                         </div>
                     </div>
@@ -45,17 +56,17 @@
                     <div class="row mx-n2">
                         <div class="col p-2">
                             <a href="../img/photopuzzle-level.png">
-                                <img class="myimg thumbnail w-100" src="../img/photopuzzle-level-thumb.png" alt="Screenshot of a side scrolling level">
+                                <img class="thumbnail w-100" src="../img/photopuzzle-level-thumb.png" alt="Screenshot of a side-scrolling level.">
                             </a>
                         </div>
                         <div class="col p-2">
                             <a href="../img/photopuzzle-takephoto.png">
-                                <img class="myimg thumbnail w-100" src="../img/photopuzzle-takephoto-thumb.png" alt="Screenshot of the camera interface">
+                                <img class="thumbnail w-100" src="../img/photopuzzle-takephoto-thumb.png" alt="Screenshot of the camera interface.">
                             </a>
                         </div>
                         <div class="col p-2">
                             <a href="../img/photopuzzle-title.png">
-                                <img class="myimg thumbnail w-100" src="../img/photopuzzle-title-thumb.png" alt="Screenshot of the title screen">
+                                <img class="thumbnail w-100" src="../img/photopuzzle-title-thumb.png" alt="Screenshot of the title screen.">
                             </a>
                         </div>
                     </div>
@@ -74,5 +85,7 @@
                 <p class="mt-4"><a class="btn btn-lg btn-dark" href="../index.html">Back</a></p>
             </div>
         </main>
+
+        <script src="../js/lightbox.js"></script>
     </body>
 </html>
