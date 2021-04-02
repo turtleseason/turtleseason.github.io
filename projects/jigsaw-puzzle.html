@@ -28,7 +28,7 @@
         <header class="container-fluid p-0">
             <div class="container pt-5 pb-3">            
                 <div class="row align-items-center">
-                    <h1 class="col text-light m-0">Viviane Poulain</h1>
+                    <h1 class="col m-0"><a href="../index.html">Viviane Poulain</a></h1>
                     <a class="col-auto text-light" href="https://github.com/turtleseason/" rel="external noopener">
                         <i class="bi-github" title="Github"></i><span class="sr-only">Github</span>
                     </a>
@@ -50,7 +50,7 @@
                 <div class="col-12 col-xl-9 p-0">
                     <div class="row mx-n2">
                         <div class="col p-2">
-                            <a href="https://turtleseason.github.io/img/jigsaw-screenshot.png">
+                            <a href="../img/jigsaw-screenshot.png">
                                 <img class="w-100" src="../img/jigsaw-screenshot.png" alt="Screenshot of the jigsaw puzzle webpage.">
                             </a>
                         </div>
@@ -59,18 +59,18 @@
                 <div class="col-12 col-xl-9 p-0 justify-content-between">
                     <div class="row mx-n2">
                         <div class="col p-2">
-                            <a href="https://turtleseason.github.io/img/jigsaw-mobile.png">
-                                <img class="thumbnail w-100" src="../img/jigsaw-mobile-thumb.png" alt="Screenshot at mobile resolution.">
-                            </a>
-                        </div>
-                        <div class="col p-2">
-                            <a href="../img/jigsaw-tablet.png">
-                                <img class="thumbnail w-100" src="../img/jigsaw-tablet-thumb.png" alt="Screenshot at tablet resolution.">
+                            <a href="../img/jigsaw-mobile-tablet.png">
+                                <img class="thumbnail w-100" src="../img/jigsaw-mobile-tablet-thumb.png" alt="Screenshots at mobile and tablet resolutions.">
                             </a>
                         </div>
                         <div class="col p-2">
                             <a href="../img/jigsaw-settings.png">
                                 <img class="thumbnail w-100" src="../img/jigsaw-settings-thumb.png" alt="Screenshot of the settings dialog.">
+                            </a>
+                        </div>
+                        <div class="col p-2">
+                            <a href="../img/jigsaw-search.png">
+                                <img class="thumbnail w-100" src="../img/jigsaw-search-thumb.png" alt="Screenshot of the image search dialog.">
                             </a>
                         </div>
                     </div>
@@ -93,6 +93,8 @@
                     <li>Built with JavaScript (ES6) and React</li>
                     <li>Uses Bootstrap for styling and responsive layout (vanilla Bootstrap classes for most styling, and
                         <a href="https://reactstrap.github.io/" rel="external noopener">reactstrap</a> for components requiring JavaScript)</li>
+                    <li>Integrates with the Unsplash API to let users search for images from within the page; to protect the access key,
+                        client-side requests are proxied through a simple API built with AWS Lambda and API Gateway</li>
                 </ul>
                 <p class="mt-4"><a class="btn btn-lg btn-dark" href="../index.html">Back</a></p>
             </div>

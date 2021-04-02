@@ -15,6 +15,15 @@ h1, h2 {
     font-size: 2rem;
 }
 
+h1 a {
+    color: #f8f9fa;
+}
+
+h1 a:hover {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
 a {
     color: #4e7934;
 }
@@ -175,6 +184,6 @@ a.text-light:focus, a.text-light:hover {
     max-height: 100%;
     max-height: calc(100% - 2rem);
     max-width: 100%;
-    background: #fff;
+    background: #eee;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, .5);
 }
