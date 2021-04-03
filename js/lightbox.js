@@ -1,5 +1,5 @@
-// Without JS, thumbnails and other image previews are wrapped in links to the full-size image files.
-// This script intercept clicks on those links to display the images in a lightbox popup instead.
+// Thumbnails and other image previews are wrapped in links that, without JS, lead to the full-size image files.
+// This script intercepts clicks on those links to display the images in a lightbox popup instead.
 
 'use strict';
 (function () {
@@ -76,7 +76,7 @@
     lightboxImg.onerror = onLightboxImageLoaded;
 
     // (Using for...of intentionally doesn't set handlers in IE, where the lightbox flex layout is broken;
-    // if that can be fixed, switch to a plain for loop or Array.prototype.forEach.call()))
+    // if that can be fixed, switch to a plain for loop or Array.prototype.forEach.call())
     for (const element of document.querySelectorAll('.gallery a')) {
         const imageUrl = element.href;
         const caption = element.querySelector('img').alt;
